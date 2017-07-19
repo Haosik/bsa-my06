@@ -37,7 +37,6 @@ app.post('/', (req, res, next) => {
 app.delete('/', (req, res, next) => {
 	console.log(req.body.userNick);
 	usersInChat.splice(usersInChat.indexOf(req.body.userNick), 1);
-	// res.send();
 });
 
 

@@ -106,7 +106,7 @@ function chat() {
 
 				msg = data.data;
 				users = data.usersInChat;
-				console.log(users);
+
 				for (let i in msg) {
 					let li = document.createElement('li');
 					li.innerHTML = `<span class="chat-msg__name">${msg[i].userName}</span>
